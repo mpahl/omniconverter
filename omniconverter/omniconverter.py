@@ -1,8 +1,4 @@
-# -*- coding: utf-8 -*-
-
-"""Main module."""
-
-class converter():
+class Converter():
 
     def array_to_string(array):
         temp = []
