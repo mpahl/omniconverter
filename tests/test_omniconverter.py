@@ -10,6 +10,8 @@ from click.testing import CliRunner
 from omniconverter import omniconverter
 from omniconverter import cli
 
+from omniconverter import Converter
+
 
 class TestOmniconverter(unittest.TestCase):
     """Tests for `omniconverter` package."""
@@ -20,8 +22,13 @@ class TestOmniconverter(unittest.TestCase):
     def tearDown(self):
         """Tear down test fixtures, if any."""
 
-    def test_000_something(self):
-        """Test something."""
+    def test_string_to_array(self):
+        converter = Converter()
+        assert converter.string_to_array("test") == ["t", "e", "s", "t"]
+        
+    def test_array_to_string(self):
+        converter = Converter()
+        assert converter.array_to_string([1,2,3,"abc",7,5,4]) == "123abc754"
 
     def test_command_line_interface(self):
         """Test the CLI."""

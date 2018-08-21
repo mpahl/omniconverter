@@ -1,6 +1,13 @@
 omniconverter package
 =====================
 
+Subpackages
+-----------
+
+.. toctree::
+
+    omniconverter.convert
+
 Submodules
 ----------
 
