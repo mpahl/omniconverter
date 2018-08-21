@@ -10,12 +10,10 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-cur_dir = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
-
-templatepath_html = cur_dir + "/convert/template_stats_html.html"
+templatepath_html = "omniconverter/template_stats_html.html"
 template_stats_html = "\"\"\"" + open(templatepath_html).read() + "\"\"\""
 
-templatepath_md = cur_dir + "/convert/template_stats_md.md"
+templatepath_md = "omniconverter/template_stats_md.md"
 template_stats_md = open(templatepath_md).read()
    
 def uni_cat(elem, elem_de, file_csv, var_weight):

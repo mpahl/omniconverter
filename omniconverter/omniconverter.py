@@ -1,8 +1,8 @@
-from .convert.read_tdp import read_tdp
-from .convert.read_stata import read_stata
-from .convert.write_stats import write_stats
-from .convert.write_tdp import write_tdp
-from .convert.write_stata import write_stata
+from .read_tdp import read_tdp
+from .read_stata import read_stata
+from .write_stats import write_stats
+from .write_tdp import write_tdp
+from .write_stata import write_stata
 
 class Converter:
 
