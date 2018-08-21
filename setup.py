@@ -15,7 +15,7 @@ requirements = ['Click>=6.0', ]
 
 setup_requirements = [ ]
 
-test_requirements = [ ]
+test_requirements = [ 'pyyaml==3.13' ]
 
 setup(
     author="Marius Pahl",
