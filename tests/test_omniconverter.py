@@ -3,10 +3,7 @@
 
 """Tests for `omniconverter` package."""
 
-
 import unittest
-
-import yaml
 
 from click.testing import CliRunner
 
