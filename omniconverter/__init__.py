@@ -4,6 +4,6 @@
 
 __author__ = """Marius Pahl"""
 __email__ = 'marius.jf.pahl@gmail.com'
-__version__ = '0.1.4'
+__version__ = '0.1.5'
 
 from .omniconverter import Converter

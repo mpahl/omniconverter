@@ -1,5 +1,5 @@
 Welcome to Omniconverter's documentation!
-======================================
+=========================================
 
 .. toctree::
    :maxdepth: 2
