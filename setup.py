@@ -15,7 +15,7 @@ requirements = ['Click>=6.0', ]
 
 setup_requirements = ['pytest-runner', ]
 
-test_requirements = [ 'pytest', "numpy==1.15", "pandas==0.23.4", "scipy==1.1.0", "pyyaml==3.13", ]
+test_requirements = [ 'pytest', "numpy==1.15", "pandas==0.23.4", "scipy==1.1.0", "pyyaml==3.13", "Jinja2==2.7"]
 
 setup(
     author="Marius Pahl",
