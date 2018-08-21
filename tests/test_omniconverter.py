@@ -5,6 +5,9 @@
 
 
 import unittest
+
+import yaml
+
 from click.testing import CliRunner
 
 from omniconverter import omniconverter
