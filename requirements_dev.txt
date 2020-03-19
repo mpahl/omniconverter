@@ -10,7 +10,7 @@ twine==1.11.0
 numpy==1.15
 pandas==0.23.4
 scipy==1.1.0
-pyyaml==3.13
+pyyaml==5.3.1
 pytest==3.7.2
 pytest-runner==4.2
 Jinja2==2.10
